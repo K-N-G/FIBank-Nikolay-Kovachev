@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2xW-Kt-qZf">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="jbM-zb-79R">
+            <objects>
+                <navigationController useStoryboardIdentifierAsRestorationIdentifier="YES" id="2xW-Kt-qZf" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ObX-xX-bjV">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="2dB-80-mkY" kind="relationship" relationship="rootViewController" id="KQ6-M9-IjB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QO4-Hs-IZc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-551" y="61"/>
+        </scene>
+        <!--Bank Home View Controller-->
+        <scene sceneID="3X7-Ty-gFa">
+            <objects>
+                <viewController storyboardIdentifier="FIBankHomeViewController" id="2dB-80-mkY" customClass="FIBankHomeViewController" customModule="FIBank_Nikolay_Kovachev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FbH-k0-egD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="VA7-J8-6eg">
+                                <rect key="frame" x="16" y="291" width="361" height="270"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FIBankLogo" translatesAutoresizingMaskIntoConstraints="NO" id="r3E-gm-l8a">
+                                        <rect key="frame" x="0.0" y="0.0" width="361" height="120"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="120" id="CfS-hZ-dJz"/>
+                                        </constraints>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uhO-wo-3B0">
+                                        <rect key="frame" x="0.0" y="136" width="361" height="56"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2F-7u-83T">
+                                                <rect key="frame" x="0.0" y="0.0" width="176.66666666666666" height="56"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="56" id="EK6-Sf-THA"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Тарифа">
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tappedButton:" destination="2dB-80-mkY" eventType="touchUpInside" id="206-2A-Sjy"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nmy-Ck-2zd">
+                                                <rect key="frame" x="184.66666666666663" y="0.0" width="176.33333333333337" height="56"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Tariff">
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tappedButton:" destination="2dB-80-mkY" eventType="touchUpInside" id="K5d-1y-mqm"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="UaJ-3T-iD5">
+                                        <rect key="frame" x="0.0" y="208" width="361" height="62"/>
+                                        <subviews>
+                                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s4g-rh-jfl">
+                                                <rect key="frame" x="0.0" y="0.0" width="176.66666666666666" height="62"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="56" id="O1c-AM-Fq1"/>
+                                                </constraints>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Бюлетин за лихвите">
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tappedButton:" destination="2dB-80-mkY" eventType="touchUpInside" id="qjS-Dh-WXu"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xVB-x9-B4Q">
+                                                <rect key="frame" x="184.66666666666663" y="0.0" width="176.33333333333337" height="62"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <state key="normal" title="Button"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="Interest Bulletin">
+                                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="20"/>
+                                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </buttonConfiguration>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                        <real key="value" value="16"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tappedButton:" destination="2dB-80-mkY" eventType="touchUpInside" id="ufa-cK-R2B"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="wqe-ee-wcI"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="VA7-J8-6eg" firstAttribute="leading" secondItem="wqe-ee-wcI" secondAttribute="leading" constant="16" id="jns-wy-jfc"/>
+                            <constraint firstItem="wqe-ee-wcI" firstAttribute="trailing" secondItem="VA7-J8-6eg" secondAttribute="trailing" constant="16" id="zEm-zJ-mMd"/>
+                            <constraint firstItem="VA7-J8-6eg" firstAttribute="centerY" secondItem="FbH-k0-egD" secondAttribute="centerY" id="zOB-JD-BCY"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="N1d-ZE-tUj">
+                        <barButtonItem key="backBarButtonItem" title=" " id="e2I-MT-aUg"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bulletinBGButton" destination="s4g-rh-jfl" id="9Ms-RQ-9Tr"/>
+                        <outlet property="bulletinENButton" destination="xVB-x9-B4Q" id="Zpa-xD-ssa"/>
+                        <outlet property="tariffBGButton" destination="F2F-7u-83T" id="WU8-6d-eUb"/>
+                        <outlet property="tariffENButton" destination="nmy-Ck-2zd" id="Uns-uX-ylm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XhD-Pe-dp8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="242" y="61"/>
+        </scene>
+        <!--Pdf Presentation View Controller-->
+        <scene sceneID="K45-gf-K8K">
+            <objects>
+                <viewController storyboardIdentifier="PdfPresentationViewController" id="Kxf-f1-iwJ" customClass="PdfPresentationViewController" customModule="FIBank_Nikolay_Kovachev" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d2C-DA-CPY">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M68-iU-h9A" customClass="PDFView">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <gestureRecognizers/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eaS-Sh-Dz2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="M68-iU-h9A" firstAttribute="top" secondItem="eaS-Sh-Dz2" secondAttribute="top" id="TUj-ji-cME"/>
+                            <constraint firstItem="eaS-Sh-Dz2" firstAttribute="trailing" secondItem="M68-iU-h9A" secondAttribute="trailing" id="Tjv-iB-hdF"/>
+                            <constraint firstItem="eaS-Sh-Dz2" firstAttribute="bottom" secondItem="M68-iU-h9A" secondAttribute="bottom" id="Xsl-fI-oYa"/>
+                            <constraint firstItem="M68-iU-h9A" firstAttribute="leading" secondItem="eaS-Sh-Dz2" secondAttribute="leading" id="xWe-f8-aT7"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="pdfView" destination="M68-iU-h9A" id="bq1-yg-gJH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KA9-TA-5Jg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="998" y="61"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="FIBankLogo" width="755" height="187"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

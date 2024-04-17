@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B30762022BCF0037008EDC07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30762012BCF0037008EDC07 /* AppDelegate.swift */; };
+		B30762042BCF0037008EDC07 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30762032BCF0037008EDC07 /* SceneDelegate.swift */; };
+		B30762092BCF0037008EDC07 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B30762082BCF0037008EDC07 /* Base */; };
+		B307620B2BCF0039008EDC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B307620A2BCF0039008EDC07 /* Assets.xcassets */; };
+		B307620E2BCF0039008EDC07 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = B307620D2BCF0039008EDC07 /* Base */; };
+		B30762192BCF0205008EDC07 /* FIBankHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B30762182BCF0205008EDC07 /* FIBankHomeViewController.swift */; };
+		B307621B2BCF0658008EDC07 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = B307621A2BCF0658008EDC07 /* View.swift */; };
+		B35B94AF2BCF1AEA00786788 /* PdfPresentationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35B94AE2BCF1AEA00786788 /* PdfPresentationViewController.swift */; };
+		B35B94B12BCF1BE300786788 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35B94B02BCF1BE300786788 /* Storyboard.swift */; };
+		B35B94B42BCF1F2900786788 /* PdfUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35B94B32BCF1F2900786788 /* PdfUrl.swift */; };
+		B35B94B72BCFD70F00786788 /* UserInteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35B94B62BCFD70F00786788 /* UserInteractionManager.swift */; };
+		B35B94B92BCFD9BB00786788 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35B94B82BCFD9BB00786788 /* Notification.swift */; };
+		B35B94BC2BCFE20700786788 /* JGProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = B35B94BB2BCFE20700786788 /* JGProgressHUD */; };
+		B35B94BE2BCFE23300786788 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35B94BD2BCFE23300786788 /* ViewController.swift */; };
+		B35B94CB2BCFE86500786788 /* IMG_8149.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35B94C02BCFE86400786788 /* IMG_8149.jpg */; };
+		B35B94CC2BCFE86500786788 /* IMG_8141.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35B94C12BCFE86400786788 /* IMG_8141.jpg */; };
+		B35B94CD2BCFE86500786788 /* IMG_8151.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35B94C22BCFE86500786788 /* IMG_8151.jpg */; };
+		B35B94CE2BCFE86500786788 /* IMG_8152.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35B94C32BCFE86500786788 /* IMG_8152.jpg */; };
+		B35B94CF2BCFE86500786788 /* IMG_8150.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35B94C42BCFE86500786788 /* IMG_8150.jpg */; };
+		B35B94D02BCFE86500786788 /* IMG_8146.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35B94C52BCFE86500786788 /* IMG_8146.jpg */; };
+		B35B94D12BCFE86500786788 /* IMG_8143.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35B94C62BCFE86500786788 /* IMG_8143.jpg */; };
+		B35B94D22BCFE86500786788 /* IMG_8147.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35B94C72BCFE86500786788 /* IMG_8147.jpg */; };
+		B35B94D32BCFE86500786788 /* IMG_8148.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35B94C82BCFE86500786788 /* IMG_8148.jpg */; };
+		B35B94D42BCFE86500786788 /* IMG_8142.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35B94C92BCFE86500786788 /* IMG_8142.jpg */; };
+		B35B94D52BCFE86500786788 /* IMG_8145.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B35B94CA2BCFE86500786788 /* IMG_8145.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B30761FE2BCF0037008EDC07 /* FIBank-Nikolay-Kovachev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FIBank-Nikolay-Kovachev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B30762012BCF0037008EDC07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B30762032BCF0037008EDC07 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B30762082BCF0037008EDC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B307620A2BCF0039008EDC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B307620D2BCF0039008EDC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B307620F2BCF0039008EDC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B30762182BCF0205008EDC07 /* FIBankHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FIBankHomeViewController.swift; sourceTree = "<group>"; };
+		B307621A2BCF0658008EDC07 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		B35B94AE2BCF1AEA00786788 /* PdfPresentationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfPresentationViewController.swift; sourceTree = "<group>"; };
+		B35B94B02BCF1BE300786788 /* Storyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		B35B94B32BCF1F2900786788 /* PdfUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfUrl.swift; sourceTree = "<group>"; };
+		B35B94B62BCFD70F00786788 /* UserInteractionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInteractionManager.swift; sourceTree = "<group>"; };
+		B35B94B82BCFD9BB00786788 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		B35B94BD2BCFE23300786788 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B35B94C02BCFE86400786788 /* IMG_8149.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8149.jpg; sourceTree = "<group>"; };
+		B35B94C12BCFE86400786788 /* IMG_8141.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8141.jpg; sourceTree = "<group>"; };
+		B35B94C22BCFE86500786788 /* IMG_8151.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8151.jpg; sourceTree = "<group>"; };
+		B35B94C32BCFE86500786788 /* IMG_8152.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8152.jpg; sourceTree = "<group>"; };
+		B35B94C42BCFE86500786788 /* IMG_8150.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8150.jpg; sourceTree = "<group>"; };
+		B35B94C52BCFE86500786788 /* IMG_8146.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8146.jpg; sourceTree = "<group>"; };
+		B35B94C62BCFE86500786788 /* IMG_8143.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8143.jpg; sourceTree = "<group>"; };
+		B35B94C72BCFE86500786788 /* IMG_8147.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8147.jpg; sourceTree = "<group>"; };
+		B35B94C82BCFE86500786788 /* IMG_8148.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8148.jpg; sourceTree = "<group>"; };
+		B35B94C92BCFE86500786788 /* IMG_8142.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8142.jpg; sourceTree = "<group>"; };
+		B35B94CA2BCFE86500786788 /* IMG_8145.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_8145.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B30761FB2BCF0037008EDC07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35B94BC2BCFE20700786788 /* JGProgressHUD in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B30761F52BCF0037008EDC07 = {
+			isa = PBXGroup;
+			children = (
+				B30762002BCF0037008EDC07 /* FIBank-Nikolay-Kovachev */,
+				B30761FF2BCF0037008EDC07 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B30761FF2BCF0037008EDC07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B30761FE2BCF0037008EDC07 /* FIBank-Nikolay-Kovachev.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B30762002BCF0037008EDC07 /* FIBank-Nikolay-Kovachev */ = {
+			isa = PBXGroup;
+			children = (
+				B35B94BF2BCFE53800786788 /* Screenshots */,
+				B35B94B52BCFD69400786788 /* Managers */,
+				B35B94B22BCF1F1700786788 /* Models */,
+				B30762162BCF008F008EDC07 /* Extensions */,
+				B30762152BCF0081008EDC07 /* ViewControllers */,
+				B30762012BCF0037008EDC07 /* AppDelegate.swift */,
+				B30762032BCF0037008EDC07 /* SceneDelegate.swift */,
+				B30762072BCF0037008EDC07 /* Main.storyboard */,
+				B307620A2BCF0039008EDC07 /* Assets.xcassets */,
+				B307620C2BCF0039008EDC07 /* LaunchScreen.storyboard */,
+				B307620F2BCF0039008EDC07 /* Info.plist */,
+			);
+			path = "FIBank-Nikolay-Kovachev";
+			sourceTree = "<group>";
+		};
+		B30762152BCF0081008EDC07 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B35B94AD2BCF1A1600786788 /* PdfPresentationViewController */,
+				B30762172BCF010B008EDC07 /* FIBankHomeViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B30762162BCF008F008EDC07 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B307621A2BCF0658008EDC07 /* View.swift */,
+				B35B94B02BCF1BE300786788 /* Storyboard.swift */,
+				B35B94B82BCFD9BB00786788 /* Notification.swift */,
+				B35B94BD2BCFE23300786788 /* ViewController.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B30762172BCF010B008EDC07 /* FIBankHomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B30762182BCF0205008EDC07 /* FIBankHomeViewController.swift */,
+			);
+			path = FIBankHomeViewController;
+			sourceTree = "<group>";
+		};
+		B35B94AD2BCF1A1600786788 /* PdfPresentationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B35B94AE2BCF1AEA00786788 /* PdfPresentationViewController.swift */,
+			);
+			path = PdfPresentationViewController;
+			sourceTree = "<group>";
+		};
+		B35B94B22BCF1F1700786788 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B35B94B32BCF1F2900786788 /* PdfUrl.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B35B94B52BCFD69400786788 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				B35B94B62BCFD70F00786788 /* UserInteractionManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		B35B94BF2BCFE53800786788 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				B35B94C12BCFE86400786788 /* IMG_8141.jpg */,
+				B35B94C92BCFE86500786788 /* IMG_8142.jpg */,
+				B35B94C62BCFE86500786788 /* IMG_8143.jpg */,
+				B35B94CA2BCFE86500786788 /* IMG_8145.jpg */,
+				B35B94C52BCFE86500786788 /* IMG_8146.jpg */,
+				B35B94C72BCFE86500786788 /* IMG_8147.jpg */,
+				B35B94C82BCFE86500786788 /* IMG_8148.jpg */,
+				B35B94C02BCFE86400786788 /* IMG_8149.jpg */,
+				B35B94C42BCFE86500786788 /* IMG_8150.jpg */,
+				B35B94C22BCFE86500786788 /* IMG_8151.jpg */,
+				B35B94C32BCFE86500786788 /* IMG_8152.jpg */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B30761FD2BCF0037008EDC07 /* FIBank-Nikolay-Kovachev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B30762122BCF0039008EDC07 /* Build configuration list for PBXNativeTarget "FIBank-Nikolay-Kovachev" */;
+			buildPhases = (
+				B30761FA2BCF0037008EDC07 /* Sources */,
+				B30761FB2BCF0037008EDC07 /* Frameworks */,
+				B30761FC2BCF0037008EDC07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FIBank-Nikolay-Kovachev";
+			packageProductDependencies = (
+				B35B94BB2BCFE20700786788 /* JGProgressHUD */,
+			);
+			productName = "FIBank-Nikolay-Kovachev";
+			productReference = B30761FE2BCF0037008EDC07 /* FIBank-Nikolay-Kovachev.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B30761F62BCF0037008EDC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					B30761FD2BCF0037008EDC07 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = B30761F92BCF0037008EDC07 /* Build configuration list for PBXProject "FIBank-Nikolay-Kovachev" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B30761F52BCF0037008EDC07;
+			packageReferences = (
+				B35B94BA2BCFE20700786788 /* XCRemoteSwiftPackageReference "JGProgressHUD" */,
+			);
+			productRefGroup = B30761FF2BCF0037008EDC07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B30761FD2BCF0037008EDC07 /* FIBank-Nikolay-Kovachev */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B30761FC2BCF0037008EDC07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B307620B2BCF0039008EDC07 /* Assets.xcassets in Resources */,
+				B35B94CB2BCFE86500786788 /* IMG_8149.jpg in Resources */,
+				B35B94CE2BCFE86500786788 /* IMG_8152.jpg in Resources */,
+				B35B94D52BCFE86500786788 /* IMG_8145.jpg in Resources */,
+				B35B94CD2BCFE86500786788 /* IMG_8151.jpg in Resources */,
+				B307620E2BCF0039008EDC07 /* Base in Resources */,
+				B35B94CF2BCFE86500786788 /* IMG_8150.jpg in Resources */,
+				B30762092BCF0037008EDC07 /* Base in Resources */,
+				B35B94D22BCFE86500786788 /* IMG_8147.jpg in Resources */,
+				B35B94D32BCFE86500786788 /* IMG_8148.jpg in Resources */,
+				B35B94CC2BCFE86500786788 /* IMG_8141.jpg in Resources */,
+				B35B94D02BCFE86500786788 /* IMG_8146.jpg in Resources */,
+				B35B94D42BCFE86500786788 /* IMG_8142.jpg in Resources */,
+				B35B94D12BCFE86500786788 /* IMG_8143.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B30761FA2BCF0037008EDC07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35B94BE2BCFE23300786788 /* ViewController.swift in Sources */,
+				B307621B2BCF0658008EDC07 /* View.swift in Sources */,
+				B35B94B72BCFD70F00786788 /* UserInteractionManager.swift in Sources */,
+				B35B94B92BCFD9BB00786788 /* Notification.swift in Sources */,
+				B30762022BCF0037008EDC07 /* AppDelegate.swift in Sources */,
+				B30762042BCF0037008EDC07 /* SceneDelegate.swift in Sources */,
+				B35B94AF2BCF1AEA00786788 /* PdfPresentationViewController.swift in Sources */,
+				B35B94B12BCF1BE300786788 /* Storyboard.swift in Sources */,
+				B35B94B42BCF1F2900786788 /* PdfUrl.swift in Sources */,
+				B30762192BCF0205008EDC07 /* FIBankHomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B30762072BCF0037008EDC07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B30762082BCF0037008EDC07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B307620C2BCF0039008EDC07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B307620D2BCF0039008EDC07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B30762102BCF0039008EDC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B30762112BCF0039008EDC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B30762132BCF0039008EDC07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6K4ZDXQL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FIBank-Nikolay-Kovachev/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kng.FIBank-Nikolay-Kovachev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B30762142BCF0039008EDC07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D6K4ZDXQL7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "FIBank-Nikolay-Kovachev/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kng.FIBank-Nikolay-Kovachev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B30761F92BCF0037008EDC07 /* Build configuration list for PBXProject "FIBank-Nikolay-Kovachev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30762102BCF0039008EDC07 /* Debug */,
+				B30762112BCF0039008EDC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B30762122BCF0039008EDC07 /* Build configuration list for PBXNativeTarget "FIBank-Nikolay-Kovachev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B30762132BCF0039008EDC07 /* Debug */,
+				B30762142BCF0039008EDC07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B35B94BA2BCFE20700786788 /* XCRemoteSwiftPackageReference "JGProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JonasGessner/JGProgressHUD.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B35B94BB2BCFE20700786788 /* JGProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B35B94BA2BCFE20700786788 /* XCRemoteSwiftPackageReference "JGProgressHUD" */;
+			productName = JGProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B30761F62BCF0037008EDC07 /* Project object */;
+}
